@@ -1,0 +1,2 @@
+Bulbous provides a couple of lighting functions for use in LÖVE games.
+It's by Tachytaenius.
