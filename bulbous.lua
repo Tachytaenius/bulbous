@@ -160,7 +160,6 @@ local function drawEmissions(occluderCanvas, basePenetrationThreshold, lights, l
 			local view1 = views[i]
 			local view2 = views[i+1]
 			setColour(view1.x / w, view1.y / h, view2 and view2.x / h or 0, view2 and view2.y / h or 0)
-			print(love.graphics.getColor())
 			points(i - 1, 0)
 		end
 		shader:send("viewLocations", viewInfoCanvas)
